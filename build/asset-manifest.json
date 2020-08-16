@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.a8b620a6.chunk.css",
-    "main.js": "/static/js/main.4f66763f.chunk.js",
-    "main.js.map": "/static/js/main.4f66763f.chunk.js.map",
+    "main.js": "/static/js/main.aab30c88.chunk.js",
+    "main.js.map": "/static/js/main.aab30c88.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ac288bae.js",
     "runtime-main.js.map": "/static/js/runtime-main.ac288bae.js.map",
-    "static/js/2.3b899420.chunk.js": "/static/js/2.3b899420.chunk.js",
-    "static/js/2.3b899420.chunk.js.map": "/static/js/2.3b899420.chunk.js.map",
+    "static/js/2.f7f2148d.chunk.js": "/static/js/2.f7f2148d.chunk.js",
+    "static/js/2.f7f2148d.chunk.js.map": "/static/js/2.f7f2148d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.26e30a5c4a9324d93ce5d4c16ec0bd64.js": "/precache-manifest.26e30a5c4a9324d93ce5d4c16ec0bd64.js",
+    "precache-manifest.8f2dcd2795f20aa8e59d458b2f180d34.js": "/precache-manifest.8f2dcd2795f20aa8e59d458b2f180d34.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a8b620a6.chunk.css.map": "/static/css/main.a8b620a6.chunk.css.map",
-    "static/js/2.3b899420.chunk.js.LICENSE.txt": "/static/js/2.3b899420.chunk.js.LICENSE.txt",
+    "static/js/2.f7f2148d.chunk.js.LICENSE.txt": "/static/js/2.f7f2148d.chunk.js.LICENSE.txt",
     "static/media/Comet.1b86ec79.svg": "/static/media/Comet.1b86ec79.svg",
     "static/media/Cosmic.5bdd214c.svg": "/static/media/Cosmic.5bdd214c.svg",
     "static/media/Icon feather-smile.87891b6b.svg": "/static/media/Icon feather-smile.87891b6b.svg",
     "static/media/Icon-behance.30512ea8.svg": "/static/media/Icon-behance.30512ea8.svg",
     "static/media/Icon-github.d3284aef.svg": "/static/media/Icon-github.d3284aef.svg",
-    "static/media/Logo.52d151be.svg": "/static/media/Logo.52d151be.svg",
-    "static/media/LogoLight.53d047e5.svg": "/static/media/LogoLight.53d047e5.svg",
+    "static/media/Logo.4314bb04.svg": "/static/media/Logo.4314bb04.svg",
+    "static/media/LogoLight.453694fa.svg": "/static/media/LogoLight.453694fa.svg",
     "static/media/MarshMallow.d1cfec30.svg": "/static/media/MarshMallow.d1cfec30.svg",
     "static/media/Mobile.61536767.svg": "/static/media/Mobile.61536767.svg",
     "static/media/Prism.7eba6812.svg": "/static/media/Prism.7eba6812.svg",
@@ -39,8 +39,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ac288bae.js",
-    "static/js/2.3b899420.chunk.js",
+    "static/js/2.f7f2148d.chunk.js",
     "static/css/main.a8b620a6.chunk.css",
-    "static/js/main.4f66763f.chunk.js"
+    "static/js/main.aab30c88.chunk.js"
   ]
 }

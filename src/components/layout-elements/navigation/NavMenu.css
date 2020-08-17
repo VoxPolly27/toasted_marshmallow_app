@@ -1,0 +1,163 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.Nav-Title {
+    font-family: "Montserrat";
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 2em;
+}
+
+.heading {
+    font-family: "Santiago Sans St";
+}
+
+.nav-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+/*#region transitions*/
+.transition-quick {
+    transition: 0.25s ease;
+}
+
+
+.transition-letter-md:hover {
+    font-size: 0.8em;
+}
+
+/*.tm-link{
+    transition: 0.2s ease;
+}*/
+/*#endregion*/
+
+/*#region toggler*/
+.ham {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 10;
+}
+
+.hamRotate.active {
+    transform: rotate(45deg);
+}
+
+.hamRotate180.active {
+    transform: rotate(180deg);
+}
+
+.line {
+    fill: none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: #FF6969;
+    stroke-width: 5.5px;
+    stroke-linecap: round;
+}
+.ham8 .top {
+    stroke-dasharray: 40 160;
+}
+
+.ham8 .middle {
+    stroke-dasharray: 40 142;
+    transform-origin: 50%;
+    transition: transform 400ms;
+}
+
+.ham8 .bottom {
+    stroke-dasharray: 40 85;
+    transform-origin: 50%;
+    transition: transform 400ms, stroke-dashoffset 400ms;
+}
+
+.ham8.active .top {
+    stroke-dashoffset: -64px;
+}
+
+.ham8.active .middle {
+    stroke-dashoffset: -20px;
+    transform: rotate(90deg);
+}
+
+.ham8.active .bottom {
+    stroke-dashoffset: -64px;
+}
+
+
+/*#endregion*/
+
+#navtoggler{
+    z-index: 20;
+}
+
+.tm-nav-menu-wrapper {
+    position: fixed;
+    transition: 0.6s cubic-bezier(.12,1.16,.19,1.15);
+    width: 100vw;
+    left: 0;
+    top: 0px;
+    height: 0vh;
+    z-index: 10;
+    display: flex;
+    overflow: hidden;
+}
+
+    .tm-nav-menu-wrapper p {
+        font-size: 0 !important;
+        color: #FEF7FE;
+        transition: 0.8s ease;
+    }
+
+
+.tm-nav-menu-wrapper-active {
+    height: 100vh !important;
+
+}
+
+.tm-nav-menu-inner {
+    flex: 1;
+    align-self: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.tm-nav-menu-wrapper-active p {
+    font-size: 32px !important;
+    opacity: 1;
+    color: #201E20;
+}
+
+
+.tm-nav-menu-wrapper svg {
+    display: none;
+    position: fixed;
+    left: 0;
+    transform: scale(0.6);
+    z-index: 11;
+}
+
+.tm-nav-menu-wrapper-active svg {
+    display: block;
+}

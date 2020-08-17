@@ -1,0 +1,26 @@
+﻿/*#region imports */
+@import "variables";
+@import "_fonts.scss";
+@import "_utilities.scss";
+@import "_legacy_sitestyle.scss";
+@import "_legacy_toastedmarshmallow.scss";
+/*#endregion */
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+        color: none;
+        text-decoration: none;
+    }
+}
+
+button {
+    all: unset;
+}
+
+button:disabled {
+    color: gray !important;
+}

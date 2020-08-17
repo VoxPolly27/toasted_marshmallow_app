@@ -1,0 +1,95 @@
+﻿@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  src: url("Fonts/OpenSansCondensed-Light.ttf") format("truetype");
+  /* Safari, Android, iOS */ }
+
+@font-face {
+  font-family: 'Oswald ExtraLight';
+  font-style: normal;
+  src: url("Fonts/Oswald-VariableFont_wght.ttf") format("truetype");
+  /* Safari, Android, iOS */ }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  src: url("Fonts/Montserrat-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Santiago Sans St';
+  font-style: normal;
+  src: url("Fonts/Santiago Sans St.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Courier-Normal';
+  font-style: normal;
+  src: url("Fonts/Courier-Normal Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Alba';
+  font-style: normal;
+  src: url("Fonts/ALBA____.TTF") format("truetype"); }
+
+@font-face {
+  font-family: 'Montserrat Thin';
+  font-style: normal;
+  src: url("Fonts/Montserrat-Thin.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Futura Bold';
+  font-style: normal;
+  src: url("Fonts/FuturaBoldCondensedBT.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  src: url("Fonts/FUTURA.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Futura Maxi';
+  font-style: normal;
+  src: url("Fonts/Futura Maxi CG Light.otf") format("truetype"); }
+
+@font-face {
+  font-family: 'BebasNeue';
+  font-style: normal;
+  src: url("Fonts/BebasNeue-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Bauhaus';
+  font-style: normal;
+  src: url("Fonts/Bauhaus 93 Regular.ttf") format("truetype"); }
+
+.futura {
+  font-family: 'Futura'; }
+
+.mont {
+  font-family: 'Montserrat'; }
+
+.mont-thin {
+  font-family: 'Montserrat Thin'; }
+
+.segoe {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.santi {
+  font-family: 'Santiago Sans St'; }
+
+.bolded {
+  font-family: 'Futura BdCn BT' !important;
+  font-weight: 400; }
+
+.bebas {
+  font-family: 'Bebas Neue' !important; }
+
+.oswald {
+  font-family: 'Oswwald' !important; }
+
+.oswald-light {
+  font-family: 'Oswald ExtraLight'; }
+
+.alba {
+  font-family: 'Alba'; }
+
+.open-sans {
+  font-family: 'Open Sans'; }

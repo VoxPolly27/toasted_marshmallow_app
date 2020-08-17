@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { useSpring, animated } from 'react-spring';
 import Layer_1 from 'components/assets/layer-1.svg'
 import Layer_2 from 'components/assets/layer-2.svg';
-import { param } from 'jquery';
 
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2]
 const trans1 = (x, y) => `translate3d(${x / 10}px,${y / 10}px,0)`

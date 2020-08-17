@@ -8,7 +8,6 @@ import { GlobalStyles } from 'components/global';
 import { lightTheme, darkTheme } from 'components/theme';
 import { Layout } from 'components/layouts/Layout';
 
-import { Home } from 'components/views/home/Home';
 import { Company } from './components/views/company/Company';
 import { Solutions } from './components/views/solutions/Solutions';
 import { Contact } from './components/views/contact/Contact';

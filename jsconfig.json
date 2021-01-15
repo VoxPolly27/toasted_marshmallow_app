@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
-      "/*": [ "./toasted_marshmallo_/src/*" ]
+      "/*": [ "./toasted_marshmallow_app/src/*" ]
     }
   }
 }

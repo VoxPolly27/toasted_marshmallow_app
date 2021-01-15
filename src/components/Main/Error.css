@@ -1,16 +1,20 @@
-﻿.tm-error-wrapper {
+.tm-error-wrapper {
   height: 50vh;
   width: 50vw;
   position: absolute;
   left: 25vw;
   top: 25vh;
-  text-align: center; }
+  text-align: center;
+}
 
 .tm-error-header {
-  font-size: 7em; }
+  font-size: 7em;
+}
 
 .tm-seperator {
   width: 50%;
   margin: 1vw;
   height: 5px;
-  display: inline-block; }
+  display: inline-block;
+}
+/*# sourceMappingURL=Error.css.map */

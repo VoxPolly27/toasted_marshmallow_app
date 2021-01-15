@@ -1,5 +1,6 @@
 ﻿import React, { Component, Fragment } from 'react';
 import './Error.css';
+import { TMButton } from 'components/views/home/Home';
 import { Link } from "react-router-dom";
 import { hierarchy } from 'd3';
 import anime from 'animejs/lib/anime.es.js'

@@ -16,17 +16,31 @@ class FloatingButtons extends Component {
     render() {
         return (
             <Fragment>
-                <div className='d-flex' style={style_icons_template}>
-                    <span className={class_float_button}>
-                    <Mailto email="info@toastedmarshmallow.co" subject="A prospective collaboration opportunity" body="Hey guys! I need a team of people who can make some fancy software for me. . .">
+                <div className='d-flex svg-md' style={style_icons_template}>
+                    <Mailto className={class_float_button} email="info.wolff@toastedmarshmallow.co,tudor.wolff@toastedmarshmallow.co,steve.purkis@toastedmarshmallow.co" subject="A prospective collaboration opportunity" body="Hey guys! I need a team of people who can make some fancy software for me. . .">
+                    <span className='tm-light'>
                         {Icons.Contact}  
+                    </span>
                     </Mailto>
-                    </span>
-                    <span className={class_float_button}>
-                        <a href='https://www.linkedin.com/company/toasted-marshmallow'>{Icons.LinkedIn}</a>
-                    </span>
-                    <span className={class_float_button}><a href='https://github.com/VoxPolly27/toasted_marshmallow_app'>{Icons.Git}</a></span>
-                    <span className={class_float_button}>{Icons.Twitter}</span>
+
+                    <a className={class_float_button} href='https://www.linkedin.com/company/toasted-marshmallow'>
+                        <span className='tm-light'>
+                            {Icons.LinkedIn}
+                        </span>
+                    </a>
+
+                    <a className={class_float_button} href='https://github.com/VoxPolly27/toasted_marshmallow_app'>
+                        <span className='tm-light'>
+                                {Icons.Git}
+                        </span>
+                    </a>
+
+                    <a className={class_float_button} href='https://twitter.com/toasted_M'>
+                        <span className='tm-light'>
+                            {Icons.Twitter}
+                        </span>
+                    </a>
+                    
                     <span onClick={this.context.callback_handle_theme_update} className={class_float_button}>{Icons.Theme}</span>
                 </div>
 
@@ -53,8 +67,8 @@ const style_icons_template = {
 }
 
 
-function Mailto({ email, subject, body, ...props }) {
+function Mailto({ email, subject, body, className, ...props }) {
   return (
-    <a href={`mailto:${email}?subject=${encodeURIComponent(subject) || ''}&body=${encodeURIComponent(body) || ''}`}>{props.children}</a>
+    <a className={className} href={`mailto:${email}?subject=${encodeURIComponent(subject) || ''}&body=${encodeURIComponent(body) || ''}`}>{props.children}</a>
   );
 }

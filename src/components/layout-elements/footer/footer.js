@@ -1,4 +1,5 @@
 ﻿import React, { Component } from 'react';
+import { Container, Col, Row } from 'reactstrap';
 import { Title } from "components/shared/title/title";
 import Stick from 'components/assets/marshStickLong.png';
 import { ReactComponent as Logo } from 'components/assets/Logo.svg';
@@ -57,7 +58,7 @@ class FooterDesktop extends Component {
 
         return (
             
-            <div className='d-flex flex-1'>
+            <Container fluid={true} className="tm-footer">
                 <div style={footerBanner} className="tm-bg-red text-center">
                     <p className="bolded tm-light m-0"> Congratulations on finding the software company you've been looking for!</p>
                 </div>
@@ -111,7 +112,7 @@ class FooterDesktop extends Component {
                     <p className='tm-footer-toe tm-red bolded'>Toasted Marshmallow (Pty) Ltd 2020</p>
                 </div>
 
-            </div>
+            </Container>
         );
     }
 }

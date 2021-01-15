@@ -1,6 +1,7 @@
 ﻿import React, { Component } from 'react';
 import { Error } from 'components/Main/Error';
 import { Page } from "components/Main/Page";
+import { Container } from 'reactstrap';
 
 export class ErrorPage extends Component {
     constructor(props) {

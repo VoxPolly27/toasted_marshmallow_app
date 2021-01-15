@@ -27,12 +27,14 @@ class WarpGraphContainer extends Component {
             data_vertical_scale = 1,
             data_horizontal_scale = 1,
 
-            data_number_of_layers = 8,
+            data_number_of_layers = 3,
             data_number_of_samples = 200,
-            data_number_of_bumps = 8,
-            state_warp_graph_type = 1,
+            data_number_of_bumps = 3,
+            state_warp_graph_type = 2,
             data_id,
         } = this.props;
+
+        this.handler_render_graph(this.props);
 
         this.setState({
             render_height: data_height * data_vertical_scale,
@@ -42,15 +44,31 @@ class WarpGraphContainer extends Component {
 
 
         /// Graph functionality
+        
+    }
 
+    handler_render_graph = async function(props) {
 
-        const svg = d3.select(`#ToastedGraph${data_id}`);
-        let n = data_number_of_layers // number of layers 
-        let m = data_number_of_samples // number of samples per layer
-        let k = data_number_of_bumps // number of bumps per layer
-        let x = d3.scaleLinear([0, m - 1], [0, data_width * data_horizontal_scale]);
-        let y = d3.scaleLinear([0, 1], [data_height * data_vertical_scale, 0]);
-        let z = d3.scaleOrdinal(['#FF6969', '#4A3457', '#E8CFDE', '#A02B5D', '#F75965']);
+        var {
+            data_height,
+            data_width,
+            data_vertical_scale = 1,
+            data_horizontal_scale = 1,
+
+            data_number_of_layers,
+            data_number_of_samples,
+            data_number_of_bumps,
+            state_warp_graph_type,
+            data_id,
+        } = props;
+
+            const svg = d3.select(`#ToastedGraph${data_id}`);
+            let n = data_number_of_layers // number of layers 
+            let m = data_number_of_samples // number of samples per layer
+            let k = data_number_of_bumps // number of bumps per layer
+            let x = d3.scaleLinear([0, m - 1], [0, data_width * data_horizontal_scale]);
+            let y = d3.scaleLinear([0, 1], [data_height * data_vertical_scale, 0]);
+            let z = d3.scaleOrdinal([, '#201E20', '#FEF7FE','#FF6969', '#A02B5D']);
 
         let offset;
 
@@ -113,27 +131,17 @@ class WarpGraphContainer extends Component {
             .attr("fill", () => z(Math.random()));
         console.log('%c GENERATOR ', 'background: limegreen');
 
-        async function* generatestream() {
-            console.log('%c GENERATOR ', 'background: limegreen');
-
-                yield svg.node();
-
-                await path
-                    .data(randomize)
-                    .transition()
-                    .delay(3000)
-                    .duration(1500)
-                    .attr("d", area)
-                    .end()
+        while (true) {
+            await svg.node();
+            await path
+            .data(randomize)
+            .transition()
+            .delay(3000)
+            .duration(1500)
+            .attr("d", area)
+            .end()
+            }
         }
-
-
-        var generator = generatestream();
-        for (let index = 0; index < 99; index++) {
-            generator.next();
-        }
-        
-    }
 
     render() {
         var {

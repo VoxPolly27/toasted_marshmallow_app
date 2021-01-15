@@ -1,6 +1,6 @@
 ﻿/*#region imports */
 @import "variables";
-@import "_fonts.scss";
+// @import "_fonts.scss";
 @import "_utilities.scss";
 @import "_legacy_sitestyle.scss";
 @import "_legacy_toastedmarshmallow.scss";
@@ -17,6 +17,14 @@ a {
     }
 }
 
+body{
+    font-family: 'Spartan', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.spartan {
+    font-family: 'Spartan', sans-serif;
+}
+
 button {
     all: unset;
 }
@@ -24,3 +32,5 @@ button {
 button:disabled {
     color: gray !important;
 }
+
+

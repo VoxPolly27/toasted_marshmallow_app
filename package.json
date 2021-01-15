@@ -1,6 +1,6 @@
 {
   "homepage": "http://toastedmarshmallow.co",
-  "name": "toastedmarshmallow",
+  "name": "toasted_marshmallow_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

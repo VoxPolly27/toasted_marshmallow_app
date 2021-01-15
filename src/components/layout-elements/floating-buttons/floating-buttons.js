@@ -18,25 +18,25 @@ class FloatingButtons extends Component {
             <Fragment>
                 <div className='d-flex svg-md' style={style_icons_template}>
                     <Mailto className={class_float_button} email="info.wolff@toastedmarshmallow.co,tudor.wolff@toastedmarshmallow.co,steve.purkis@toastedmarshmallow.co" subject="A prospective collaboration opportunity" body="Hey guys! I need a team of people who can make some fancy software for me. . .">
-                    <span className='tm-light'>
+                    <span className=''>
                         {Icons.Contact}  
                     </span>
                     </Mailto>
 
                     <a className={class_float_button} href='https://www.linkedin.com/company/toasted-marshmallow'>
-                        <span className='tm-light'>
+                        <span className=''>
                             {Icons.LinkedIn}
                         </span>
                     </a>
 
                     <a className={class_float_button} href='https://github.com/VoxPolly27/toasted_marshmallow_app'>
-                        <span className='tm-light'>
+                        <span className=''>
                                 {Icons.Git}
                         </span>
                     </a>
 
                     <a className={class_float_button} href='https://twitter.com/toasted_M'>
-                        <span className='tm-light'>
+                        <span className=''>
                             {Icons.Twitter}
                         </span>
                     </a>

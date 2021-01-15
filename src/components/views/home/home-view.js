@@ -132,7 +132,7 @@ const HomeView = (props) => {
                     <Logo />
                 </GridElement>
 
-                <GridElement className='box-shadow text-xxsm tm-light text-lighter text-center tm-bg-primary spartan align-self-center p-v-20 m-v-10' style={display_template.template_banner}>
+                <GridElement className='box-shadow text-xxsm text-lighter text-center tm-bg-primary spartan align-self-center p-v-20 m-v-10' style={display_template.template_banner}>
                     <span>Thanks for checking in.<span className='tm-red text-light text-xsm'> This site is currently under development. </span> Feel free to get in touch on our socials. </span>
                 </GridElement>
 

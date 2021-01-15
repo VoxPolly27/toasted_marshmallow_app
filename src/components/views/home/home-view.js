@@ -132,7 +132,7 @@ const HomeView = (props) => {
                     <Logo />
                 </GridElement>
 
-                <GridElement className='box-shadow text-xxsm tm-light text-lighter text-center tm-bg-primary spartan align-self-center p-v-20 m-v-10' style={template_gridshape(1,13,1,2)}>
+                <GridElement className='box-shadow text-xxsm tm-light text-lighter text-center tm-bg-primary spartan align-self-center p-v-20 m-v-10' style={display_template.template_banner}>
                     <span>Thanks for checking in.<span className='tm-red text-light text-xsm'> This site is currently under development. </span> Feel free to get in touch on our socials. </span>
                 </GridElement>
 
@@ -168,11 +168,11 @@ const desktop_template = {
         gridRowStart: "1",
         gridRowEnd: "13",
     },
-    template_warp_graph: {
+    template_banner: {
         gridColumnStart: "1",
-        gridColumnEnd: "8",
-        gridRowStart: "12",
-        gridRowEnd: "13",
+        gridColumnEnd: "13",
+        gridRowStart: "1",
+        gridRowEnd: "2",
     },
     template_content: {
         gridColumnStart: "1",
@@ -198,11 +198,11 @@ const mobile_template = {
         gridRowStart: "7",
         gridRowEnd: "13",
     },
-    template_warp_graph: {
+    template_banner: {
         gridColumnStart: "1",
-        gridColumnEnd: "7",
-        gridRowStart: "1",
-        gridRowEnd: "13",
+        gridColumnEnd: "13",
+        gridRowStart: "7",
+        gridRowEnd: "8",
     },
     template_content: {
         gridColumnStart: "1",

@@ -117,7 +117,7 @@ const HomeView = (props) => {
                     <span className='flex-1'></span>
                     <span className='flex-1'>
                         <h1 className='spartan text-xl font-lighter p-top-10 m-v-0 m-h-20 text-left tm-primary'>Toasted</h1>
-                        <h1 className='spartan text-xxl font-lighter m-v-0 m-h-20 text-left tm-red'>Marhsmallow</h1>
+                        <h1 className='spartan text-xxl font-lighter m-v-0 m-h-20 text-left tm-red'>Marshmallow</h1>
 
                         <p className='segoe b-left-5 text-xsm  tm-border-red p-h-20 flex-1 text-left font-lighter p-bottom-20 m-h-20' style={display_template.content_width}>
                             A technology start-up that specialise in modern web development, trendy website design, SEO strategies, industrial automation,
